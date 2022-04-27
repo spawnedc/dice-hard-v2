@@ -1,0 +1,188 @@
+[gd_resource type="Theme" load_steps=39 format=2]
+
+[ext_resource path="res://assets/fonts/PressStart2P/PressStart2P-8.tres" type="DynamicFont" id=1]
+[ext_resource path="res://assets/components/frame/frame.png" type="Texture" id=2]
+[ext_resource path="res://assets/components/buttons/button/button-disabled.png" type="Texture" id=3]
+[ext_resource path="res://assets/components/separator/separator-horizontal.png" type="Texture" id=4]
+[ext_resource path="res://assets/components/slider/slider-thumb-vertical.png" type="Texture" id=5]
+[ext_resource path="res://assets/components/slider/slider-vertical.png" type="Texture" id=6]
+[ext_resource path="res://assets/components/slider/slider-thumb.png" type="Texture" id=7]
+[ext_resource path="res://assets/components/scrollBar/scrollbar-track-vertical.png" type="Texture" id=8]
+[ext_resource path="res://assets/components/separator/separator-vertical.png" type="Texture" id=9]
+[ext_resource path="res://assets/components/slider/slider-horizontal.png" type="Texture" id=10]
+[ext_resource path="res://assets/components/buttons/button/button.png" type="Texture" id=11]
+[ext_resource path="res://assets/components/buttons/button/button-hover.png" type="Texture" id=12]
+[ext_resource path="res://assets/components/buttons/button/button-down.png" type="Texture" id=13]
+[ext_resource path="res://assets/components/progressBar/progress-bar.png" type="Texture" id=14]
+[ext_resource path="res://assets/components/progressBar/progress-red.png" type="Texture" id=15]
+[ext_resource path="res://assets/components/scrollBar/scrollbar-track.png" type="Texture" id=16]
+[ext_resource path="res://assets/components/scrollBar/scrollbar-thumb.png" type="Texture" id=17]
+[ext_resource path="res://assets/components/scrollBar/scrollbar-button.png" type="Texture" id=18]
+
+[sub_resource type="StyleBoxTexture" id=22]
+texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 76, 26 )
+margin_left = 12.0
+margin_right = 12.0
+margin_top = 8.0
+margin_bottom = 8.0
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 12 )
+region_rect = Rect2( 0, 0, 76, 26 )
+margin_left = 12.0
+margin_right = 12.0
+margin_top = 8.0
+margin_bottom = 8.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxTexture" id=1]
+texture = ExtResource( 11 )
+region_rect = Rect2( 0, 0, 76, 26 )
+margin_left = 12.0
+margin_right = 12.0
+margin_top = 8.0
+margin_bottom = 8.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = ExtResource( 13 )
+region_rect = Rect2( 0, 0, 76, 26 )
+margin_left = 12.0
+margin_right = 12.0
+margin_top = 8.0
+margin_bottom = 8.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxTexture" id=17]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 10, 10 )
+
+[sub_resource type="StyleBoxTexture" id=16]
+texture = ExtResource( 8 )
+region_rect = Rect2( 0, 0, 22, 12 )
+axis_stretch_horizontal = 1
+
+[sub_resource type="StyleBoxTexture" id=19]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 16, 3 )
+
+[sub_resource type="StyleBoxEmpty" id=11]
+
+[sub_resource type="StyleBoxEmpty" id=12]
+
+[sub_resource type="StyleBoxTexture" id=10]
+texture = ExtResource( 10 )
+region_rect = Rect2( 0, 0, 34, 8 )
+margin_left = 5.0
+margin_right = 5.0
+expand_margin_left = 5.0
+expand_margin_right = 5.0
+
+[sub_resource type="StyleBoxTexture" id=20]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 36, 36 )
+margin_left = 7.0
+margin_right = 7.0
+margin_top = 8.0
+margin_bottom = 7.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 14 )
+region_rect = Rect2( 0, 0, 32, 14 )
+margin_left = 10.0
+margin_right = 10.0
+margin_top = 3.0
+margin_bottom = 3.0
+expand_margin_left = 10.0
+expand_margin_right = 10.0
+expand_margin_top = 3.0
+expand_margin_bottom = 3.0
+axis_stretch_horizontal = 1
+
+[sub_resource type="StyleBoxTexture" id=5]
+texture = ExtResource( 15 )
+region_rect = Rect2( 0, 0, 6, 8 )
+
+[sub_resource type="StyleBoxTexture" id=21]
+texture = ExtResource( 2 )
+region_rect = Rect2( 0, 0, 36, 36 )
+margin_left = 7.0
+margin_right = 7.0
+margin_top = 7.0
+margin_bottom = 7.0
+
+[sub_resource type="StyleBoxTexture" id=7]
+texture = ExtResource( 17 )
+region_rect = Rect2( 0, 0, 10, 10 )
+margin_left = 2.0
+margin_right = 2.0
+margin_top = 2.0
+margin_bottom = 2.0
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxTexture" id=6]
+texture = ExtResource( 16 )
+region_rect = Rect2( 0, 0, 12, 22 )
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+
+[sub_resource type="StyleBoxTexture" id=18]
+texture = ExtResource( 9 )
+region_rect = Rect2( 0, 0, 3, 16 )
+
+[sub_resource type="StyleBoxEmpty" id=14]
+
+[sub_resource type="StyleBoxEmpty" id=15]
+
+[sub_resource type="StyleBoxTexture" id=13]
+texture = ExtResource( 6 )
+region_rect = Rect2( 0, 0, 8, 34 )
+margin_top = 5.0
+margin_bottom = 5.0
+expand_margin_top = 5.0
+expand_margin_bottom = 5.0
+
+[resource]
+default_font = ExtResource( 1 )
+Button/styles/disabled = SubResource( 22 )
+Button/styles/hover = SubResource( 2 )
+Button/styles/normal = SubResource( 1 )
+Button/styles/pressed = SubResource( 3 )
+HScrollBar/styles/grabber = SubResource( 17 )
+HScrollBar/styles/grabber_highlight = SubResource( 17 )
+HScrollBar/styles/grabber_pressed = SubResource( 17 )
+HScrollBar/styles/scroll = SubResource( 16 )
+HSeparator/styles/separator = SubResource( 19 )
+HSlider/icons/grabber = ExtResource( 7 )
+HSlider/icons/grabber_disabled = ExtResource( 7 )
+HSlider/icons/grabber_highlight = ExtResource( 7 )
+HSlider/styles/grabber_area = SubResource( 11 )
+HSlider/styles/grabber_area_highlight = SubResource( 12 )
+HSlider/styles/slider = SubResource( 10 )
+LineEdit/styles/normal = SubResource( 20 )
+ProgressBar/styles/bg = SubResource( 4 )
+ProgressBar/styles/fg = SubResource( 5 )
+TextEdit/styles/normal = SubResource( 21 )
+VScrollBar/icons/decrement = ExtResource( 18 )
+VScrollBar/icons/decrement_highlight = ExtResource( 18 )
+VScrollBar/icons/decrement_pressed = ExtResource( 18 )
+VScrollBar/icons/increment = ExtResource( 18 )
+VScrollBar/icons/increment_highlight = ExtResource( 18 )
+VScrollBar/icons/increment_pressed = ExtResource( 18 )
+VScrollBar/styles/grabber = SubResource( 7 )
+VScrollBar/styles/grabber_highlight = SubResource( 7 )
+VScrollBar/styles/grabber_pressed = SubResource( 7 )
+VScrollBar/styles/scroll = SubResource( 6 )
+VSeparator/styles/separator = SubResource( 18 )
+VSlider/icons/grabber = ExtResource( 5 )
+VSlider/icons/grabber_disabled = ExtResource( 5 )
+VSlider/icons/grabber_highlight = ExtResource( 5 )
+VSlider/styles/grabber_area = SubResource( 14 )
+VSlider/styles/grabber_area_highlight = SubResource( 15 )
+VSlider/styles/slider = SubResource( 13 )
