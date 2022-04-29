@@ -22,6 +22,12 @@ boot_splash/bg_color=Color( 0.00784314, 0.0235294, 0.0235294, 1 )
 config/icon="res://icon.png"
 config/version="2.0.0"
 
+[autoload]
+
+MusicManager="*res://singletons/MusicManager/MusicManager.tscn"
+Events="*res://singletons/Events.gd"
+SceneLoader="*res://singletons/SceneLoader/SceneLoader.tscn"
+
 [display]
 
 window/size/width=480

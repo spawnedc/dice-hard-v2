@@ -16,6 +16,9 @@
 script = ExtResource( 3 )
 
 [node name="Background" type="Node2D" parent="."]
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Sky" type="TextureRect" parent="Background"]
 margin_right = 480.0
@@ -110,7 +113,6 @@ texture = ExtResource( 15 )
 centered = false
 
 [node name="ConnectButton" type="Button" parent="."]
-visible = false
 margin_left = 200.0
 margin_top = 218.0
 margin_right = 276.0

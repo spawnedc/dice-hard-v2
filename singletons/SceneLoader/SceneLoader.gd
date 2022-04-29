@@ -1,21 +1,17 @@
 extends Node
 
-signal scene_loaded(scene)
-
-export(String, FILE, "*.tscn") var LEVEL_START
-
 var current_scenes = []
 
 
 func _ready():
-	_deferred_goto_scene(LEVEL_START)
+	Events.connect("change_scene", self, "goto_scene")
 
 
 func _get_scene_name(scene_name: String) -> String:
 	if scene_name.begins_with("res://"):
 		return scene_name
 
-	return "res://Scenes/" + scene_name + "/" + scene_name + ".tscn"
+	return "res://scenes/" + scene_name + "/" + scene_name + ".tscn"
 
 
 func _get_scene_instance(scene_name: String) -> Resource:
@@ -28,7 +24,6 @@ func _get_scene_instance(scene_name: String) -> Resource:
 func show_scene(scene_name: String) -> Resource:
 	var new_scene = _get_scene_instance(scene_name)
 	$Scenes.add_child(new_scene)
-	emit_signal("scene_loaded", new_scene)
 	current_scenes.append(new_scene)
 
 	return new_scene
