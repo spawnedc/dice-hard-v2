@@ -1,0 +1,14 @@
+https://creativekind.itch.io/nightborne-warrior
+
+You are free to do with it everything that you wanna, except reselling  :)
+
+No credits required. 
+
+Animations:
+
+Idle - 9 frames.
+Run - 6 frames.
+Attack - 12 frames.
+Hurt - 5 frames.
+Death -23 frames.
+Size 80x80.
